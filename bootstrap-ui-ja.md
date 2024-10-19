@@ -52,7 +52,7 @@
 - [貢献](#貢献)
 - [ライセンス](#license)
 
-## インストール(Installation)
+## Installation (インストール)
 
 `cd` でアプリフォルダのルート (`composer.json` ファイルがある場所) に移動し、次の [Composer][composer] を実行します。
 command:
@@ -67,7 +67,7 @@ Then load the plugin using CakePHP's console:
 bin/cake plugin load BootstrapUI
 ```
 
-＃＃ 設定(Setup)
+＃＃ Setup (設定)
 
 Bootstrapのコマンドを使用して必要な変更を行うか、手動で行うこともできます。
 
