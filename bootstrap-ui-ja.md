@@ -41,8 +41,8 @@
 
 ＃＃ 目次
 
-- [インストール](#installation)
-- [セットアップ](#setup)
+- [インストール](#インストール(Installation))
+- [セットアップ](#設定(Setup))
   - [Bootstrap コマンドの使用](#using-the-bootstrap-commands)
   - [手動セットアップ](#manual-setup)
   - [BootstrapUI レイアウト](#bootstrapui-layouts)
@@ -52,7 +52,7 @@
 - [貢献](#貢献)
 - [ライセンス](#license)
 
-## Installation (インストール)
+## インストール(Installation)
 
 `cd` でアプリフォルダのルート (`composer.json` ファイルがある場所) に移動し、次の [Composer][composer] を実行します。
 command:
@@ -67,7 +67,7 @@ Then load the plugin using CakePHP's console:
 bin/cake plugin load BootstrapUI
 ```
 
-＃＃ Setup (設定)
+＃＃ 設定(Setup)
 
 Bootstrapのコマンドを使用して必要な変更を行うか、手動で行うこともできます。
 
