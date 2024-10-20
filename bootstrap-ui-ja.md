@@ -1,3 +1,4 @@
+> [FriendsOfCake/bootstrap-ui/README](https://github.com/FriendsOfCake/bootstrap-ui/blob/master/README.md)の日本語訳です。
 
 # Bootstrap UI
 
@@ -41,15 +42,15 @@
 
 ＃＃ 目次
 
-- [インストール](#インストールInstallation)
-- [セットアップ](#設定Setup)
-  - [Bootstrap コマンドの使用](#Bootstrapコマンドの使用using-the-bootstrap-commands)
+- [インストール](#インストールinstallation)
+- [セットアップ](#設定setup)
+  - [Bootstrap コマンドの使用](bBootstrapコマンドの使用using-the-bootstrap-commands)
   - [手動セットアップ](#手動セットアップmanual-setup)
-  - [BootstrapUI レイアウト](#BootstrapUIレイアウトbootstrapui-layouts)
-  - [Bootstrap フレームワークの組み込み](#Bootstrapフレームワークの組み込みincluding-the-bootstrap-framework)
+  - [BootstrapUI レイアウト](#bootstrapuiレイアウトbootstrapui-layouts)
+  - [Bootstrap フレームワークの組み込み](#bootstrapフレームワークの組み込みincluding-the-bootstrap-framework)
 - [テンプレートをベイクする](#テンプレートをベイクするbake-templates)
 - [使用方法](#使用方法usage)
-- [貢献](#貢献Contributing)
+- [貢献](#貢献contributing)
 - [ライセンス](#license)
 
 ## インストール(Installation)
@@ -108,7 +109,7 @@ Bootstrapのコマンドを使用して必要な変更を行うか、手動で�
    `src/templates/layout/TwitterBootstrap` です。
    これにより、3つのレイアウト例である `cover.php`、`dashboard.php`、`signin.php` が、アプリケーションの `src/templates/layout/TwitterBootstrap` ディレクトリにコピーされます。
 
-### 手動設定
+### 手動セットアップ(Manual setup)
 
 #### npm 経由で Bootstrap アセットをインストールする
 
@@ -287,7 +288,7 @@ bin/cake bake template ControllerName -t BootstrapUI
 bin/cake bake template ControllerName login -t BootstrapUI
 ```
 
-＃＃ 使用法(Usage)
+## 使用方法(Usage)
 
 BootstrapUIの核心は、CakePHPのコアヘルパーに対する拡張機能の集まりです。これらのヘルパーは、ビュー要素のレンダリングに使用されるHTMLテンプレートを置き換えます。これにより、Bootstrapのスタイルを使用したフォームやコンポーネントを作成することができます。
 
