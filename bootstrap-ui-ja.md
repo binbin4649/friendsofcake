@@ -41,15 +41,15 @@
 
 ＃＃ 目次
 
-- [インストール](#インストール(Installation))
-- [セットアップ](#設定(Setup))
-  - [Bootstrap コマンドの使用](#using-the-bootstrap-commands)
-  - [手動セットアップ](#manual-setup)
-  - [BootstrapUI レイアウト](#bootstrapui-layouts)
-  - [Bootstrap フレームワークの組み込み](#including-the-bootstrap-framework)
-- [テンプレートをベイクする](#bake-templates)
-- [使用方法](#usage)
-- [貢献](#貢献)
+- [インストール](#インストールInstallation)
+- [セットアップ](#設定Setup)
+  - [Bootstrap コマンドの使用](#Bootstrapコマンドの使用using-the-bootstrap-commands)
+  - [手動セットアップ](#手動セットアップmanual-setup)
+  - [BootstrapUI レイアウト](#BootstrapUIレイアウトbootstrapui-layouts)
+  - [Bootstrap フレームワークの組み込み](#Bootstrapフレームワークの組み込みincluding-the-bootstrap-framework)
+- [テンプレートをベイクする](#テンプレートをベイクするbake-templates)
+- [使用方法](#使用方法usage)
+- [貢献](#貢献Contributing)
 - [ライセンス](#license)
 
 ## インストール(Installation)
@@ -67,11 +67,11 @@ Then load the plugin using CakePHP's console:
 bin/cake plugin load BootstrapUI
 ```
 
-＃＃ 設定(Setup)
+## 設定(Setup)
 
 Bootstrapのコマンドを使用して必要な変更を行うか、手動で行うこともできます。
 
-### Bootstrapコマンドの使用
+### Bootstrapコマンドの使用(Using the Bootstrap commands)
 
 1.Bootstrapのアセット（BootstrapのCSS/JSファイル、Popper.js）をnpm経由でインストールするには、installコマンドを使用するか、手動でインストールすることもできます。[install them manually](#installing-bootstrap-assets-via-npm):
 
@@ -201,7 +201,7 @@ BootstrapUIのサンプルレイアウト（Bootstrapのサンプルから直接
 cp -R vendor/friendsofcake/bootstrap-ui/templates/layout/examples templates/layout/TwitterBootstrap
 ```
 
-### BootstrapUIレイアウト
+### BootstrapUIレイアウト(BootstrapUI Layouts)
 
 BootstrapUI には、独自の `default.php` レイアウト ファイルと、Bootstrap フレームワークから取得した例が付属しています。
 
@@ -228,7 +228,7 @@ $this->extend('../layout/TwitterBootstrap/dashboard');
 
 **注意: コピーしたレイアウトでスタイルシートを設定することを忘れないでください。**
 
-### Bootstrapフレームワークの組み込み
+### Bootstrapフレームワークの組み込み(Including the Bootstrap framework)
 
 [the BoostrapUI plugin's default layout](#bootstrapui-layouts)を使用しており、Bootstrap
 [the `install` command](#using-the-bootstrap-commands)を使用してアセットをインストールすると、必要なアセットは自動的に含まれています。
